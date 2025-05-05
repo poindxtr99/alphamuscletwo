@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "proj_alphaMuscle_mern",
+    "name": "Alpha Muscle",
     "slug": "proj_alphaMuscle_mern",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -24,6 +24,9 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "expo-secure-store"
+    ]
   }
 }
